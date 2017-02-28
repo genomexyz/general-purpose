@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+#robot downloader for JMA
+
 import pycurl
 import datetime
 import time
