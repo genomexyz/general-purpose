@@ -31,7 +31,8 @@ addr = ['http://satelit.bmkg.go.id/IMAGE/HIMA/H08_EH_Indonesia.png', \
 name = ['citra_satelit_indonesia', 'citra_jenis_awan_indonesia', \
 'potensi_hujan_indonesia', 'citra_satelit_VIS', 'citra_satelit_IR3_WV', \
 'vektor_angin', 'citra_satelit_jabodetabek', 'citra_satelit_natural_color_indonesia', \
-'citra_sebaran_asap',]
+'citra_sebaran_asap', 'Fengyun_2G_BBS', 'Fengyun_2G_BBU', 'Fengyun_2G_Indonesia', \
+'Fengyun_2E_BBS', 'Fengyun_2E_BBU', 'Fengyun_2E_Indonesia']
 
 def download (alamat, outp):
 	connected = False
