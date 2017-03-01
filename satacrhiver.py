@@ -87,4 +87,5 @@ while True:
 			counter += 1
 			print 'download success'
 		check_time = minuteint
+		counter = 0
 	time.sleep(60) #looping every 1 minutes
