@@ -35,6 +35,7 @@ print np.shape(plotB03)
 
 Y,X = np.shape(plotB03)
 
+#prepare image matrix MXNX3
 rgbnc = np.zeros((Y, X, 3))
 rgbnc[..., 0] = plotB03
 rgbnc[..., 1] = plotB04
@@ -42,4 +43,4 @@ rgbnc[..., 2] = plotB06
 rgbnc = np.flipud(rgbnc)
 print rgbnc
 imsave('rgb_asap.png', rgbnc)
-#prepare image matrix MXNX3
+
