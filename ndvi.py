@@ -36,9 +36,6 @@ B13 = dsetB13.variables['IR'][0]
 #calculate session#
 ###################
 
-#to calculate NDVI = (B11 - B08) / (B11 + B08)
-#to calculate EVI = (B11 - B08) / (B11 + 6 * B08 - 7.5 * B07 + 1)
-
 NDVI = (B04 - B03) / (B04 + B03)
 NDVI[NDVI < 0.2] = np.nan
 B13[B13 < clearthreshold] = np.nan
