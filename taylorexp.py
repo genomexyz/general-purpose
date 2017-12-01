@@ -1,6 +1,5 @@
 #!/usr/bin/python
 
-#install xlsxwriter dengan sudo -H pip install xlsxwriter
 
 import matplotlib.pyplot as plt
 import numpy as np
