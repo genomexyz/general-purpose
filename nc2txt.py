@@ -19,7 +19,7 @@ with open(ascii3d, 'w') as tulis_file:
 	datawriter = csv.writer(tulis_file, delimiter=',')
 	#datawriter.writerow(['bujur', 'lintang', 'kedalaman'])
 	for i in xrange(len(lon)):
-    	#biar tenang nunggunya, lebih baik perlihatkan progress
-   	print 'progress', i
+    		#biar tenang nunggunya, lebih baik perlihatkan progress
+   		print 'progress', i
 		for j in xrange(len(lat)):
 			datawriter.writerow([lon[i], lat[j], kedalaman[j,i]])
